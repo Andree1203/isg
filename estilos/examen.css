@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Century Ghotic';
+    background-color: rgb(0,0,0);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.title{
+    display: flex;
+    height: 88px;
+    justify-content: center;
+}
+.title h1{
+    background:rgb(0,0,0);
+    color: white;
+    font-size: 80px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navegación{
+    width: 100%;
+    background:rgb(0,0,0);
+    height: 162px;
+    display: flex;
+    justify-content: center;
+}
+.menú{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.menú li{
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 10px solid rgb(0,0,0);
+    position: relative;
+}
+.menú .first-item{
+    border-left: 5px#363636;
+}
+.menú li a{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.menú .imagen{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 0%;
+    z-index: 20;
+}
+.menú li a .text-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0,0,0);
+    top: 0%;
+    position: absolute;
+    z-index: 10;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.menú li .down-item{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgb(245,245,245)
+}
+.menú li:hover .down-item, .menú li:hover .text-item{
+    top: 100%;
+    height: 115%;
+}
+.menú li:hover .imagen{
+    width: 100%;
+    right: 0px;  
+}
+.division{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245,245,245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.segunda{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245,245,245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tercera{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245,245,245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    background-color: white;
+    
+}
+footer h3{
+    height: 40px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
